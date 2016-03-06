@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 768px){
+    .content {
+        width: 90%;
+        margin: 140px 20px;
+        border: 1px solid #111;
+        outline: 2px solid #000;
+        outline-offset: 4px;
+        background-color: cornflowerblue;
+        /*background: url(/assets/foolish_news/title-d1d1eabd6211481b1ff3dc87c7ad9fd2.png) no-repeat center 20px;*/
+        -moz-background-size: 140px 115px;
+        -o-background-size: 140px 115px;
+        -webkit-background-size: 140px 115px;
+        background-size: 140px 115px;
+    }
+        /*//<=768的设备 */
+}
+@media (min-width: 768px){
+    input{
+        width: 90%;
+        height: 80px;
+        margin-left: 5%;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .usernameDiv{
+        margin-top: 45px;
+    }
+    .headerDiv{
+        width: 90%;
+        margin: 250px 0px auto;
+        margin-left: 5%;
+        background-color: #B9D3EE;
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+        /*margin-top: 250px;*/
+        text-align: center;
+    }
+    .headerDiv h2{
+        padding-top: 20px;
+        height: 80px;
+        vertical-align: middle;
+        color: #333333;
+
+        font-size: 30px;
+    }
+
+    .content {
+        width: 90%;
+        height: 500px;
+        margin: 20px auto;
+        border: 1px solid ghostwhite;
+        outline: 2px solid gainsboro;
+        outline-offset: 4px;
+        background-color: mistyrose;
+        /*background: url(/assets/foolish_news/title-d1d1eabd6211481b1ff3dc87c7ad9fd2.png) no-repeat center 20px;*/
+        -moz-background-size: 140px 115px;
+        -o-background-size: 140px 115px;
+        -webkit-background-size: 140px 115px;
+        background-size: 140px 115px;
+    }
+    .sinIn{
+        height: 60px;
+        width: 30%;
+        margin-left: 5%;
+        margin-top: 50px;
+        font-size: 30px;
+        background-color: #EE4000;
+    }
+    .sinUp{
+        height: 60px;
+        width: 30%;
+        margin-top: 50px;
+        margin-left: 30%;
+        font-size: 30px;
+        background-color: #32CD32;
+
+    }
+    /*//>=768的设备 */
+}
+@media (min-width: 992px){
+
+    /*//>=992的设备*/
+}
+@media (min-width: 1200px){
+    /*//>=1200的设备*/
+}
+/*.content{*/
+    /*width: 90%;*/
+    /*margin: 140px 20px;*/
+    /*border: 1px solid #111;*/
+    /*outline: 2px solid #000;*/
+    /*outline-offset: 4px;*/
+    /*background-color: #337ab7;*/
+    /*/!*background: url(/assets/foolish_news/title-d1d1eabd6211481b1ff3dc87c7ad9fd2.png) no-repeat center 20px;*!/*/
+    /*-moz-background-size: 140px 115px;*/
+    /*-o-background-size: 140px 115px;*/
+    /*-webkit-background-size: 140px 115px;*/
+    /*background-size: 140px 115px;*/
+/*}*/
